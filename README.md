@@ -26,9 +26,15 @@ The idea of the game is, one side holds a secret number and the other side(user)
 gcc -c mastermind.cpp -o mastermind
 ```
 * And then type to run
+	if random number
 ```
-./mastermind
+./mastermind -r
 ```
+* 	if user given number
+```
+./mastermind -u USERNUMBER
+```
+
 
 
 ## Authors
